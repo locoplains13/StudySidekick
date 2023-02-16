@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\Java Projects\CMPT 370 Project\cmpt370-delta-project\StudySidekick.jar</jar>
+  <outfile>D:\Java Projects\CMPT 370 Project\cmpt370-delta-project\Study Sidekick.exe</outfile>
+  <errTitle>Please install Java 1.8.0 JRE</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.oracle.com/java/technologies/javase-jre8-downloads.html</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\Java Projects\CMPT 370 Project\cmpt370-delta-project\main\src\images\icon.ico</icon>
+  <singleInstance>
+    <mutexName>StudySidekick</mutexName>
+    <windowTitle>Study Sidekick</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application requires a Java Runtime Environment (Bundled JRE Error).</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment (JRE Version Error).</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
